@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Dongle', sans-serif;
+  font-size: 6rem;
+  margin:  3%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin-left: 42%
+
+}
+
+footer {
+  color: wheat;
+  position: absolute;
+  left: 100px;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.simon {
+  position: absolute;
+  left: 69px;
+  top: 307px;
+  background-color: wheat;
+  color: #011F3F;
+  border-radius: 50%;
+  font-size: 6rem;
+  font-family: 'Dongle', sans-serif;
+  padding: 1%;
+}
